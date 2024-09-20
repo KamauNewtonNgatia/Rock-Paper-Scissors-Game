@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* overall-container stylings */
+.overall-container {
+  background-color: rgb(158, 201, 30);
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+}
+/* end of overall-container stylings */
+
+/* header-container stylings */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 71em) {
+  .header-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+/* header-container stylings */
+
+/* computer-badge-container stylings*/
+.computer-badge-container {
+  margin: 1rem auto;
+  width: 20%;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+/* computer-badge stylings*/
+
+/* computer-badge stylings */
+.computer-badge {
+  border: 2px dashed;
+  font-size: 4rem;
+  text-align: center;
+}
+/* computer-badge stylings */
+
+/* results-display */
+.results-display {
+  background-color: rgb(242, 194, 68);
+  padding: 30px;
+  width: 100%;
+  border: 2px transparent;
+  margin-top: 3rem;
+}
+/* end of results-display */
+
+/* results-text */
+.results-text {
+  text-transform: uppercase;
+  text-align: center;
+}
+/* end of results-text */
+
+/* player-badge */
+.player-badge {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+/* end of player-badge */
+
+/* player-choice stylings*/
+.player-choice {
+  border: 2px dashed;
+  margin: 1rem auto;
+  width: 20%;
+  height: 20vh;
+  font-size: 6rem;
+  align-items: center;
+  text-align: center;
+}
+/* end of player-choice stylings*/
+
+/* scoreboard stylings*/
+.scoreboard {
+  display: flex;
+  font-size: 1rem;
+  padding: 5px;
+  gap: 5px;
+}
+
+/* end of scoreboard stylings*/
+
+/* player-styles */
+.player-styles {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 2rem;
+  text-align: center;
+}
+/* end of player-styles */
+
+/* button-styles */
+.button-styles {
+  background-color: white;
+  font-size: 4rem;
+  border: none;
+  cursor: pointer;
+}
+/* end of button-styles */

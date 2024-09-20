@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper and Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="overall-container" id="overall-container">
+      <div class="header-container" id="header--container">
+        <div class="link-header" id="link--header">
+          &copy; 2024<a
+            href="https://github.com/KamauNewtonNgatia/"
+            target="_blank"
+          >
+            Kamau Newton</a
+          >
+        </div>
+        <div class="scoreboard" id="score-board">
+          <h1>Draw</h1>
+          <h1 id="drawPoints">0</h1>
+          <h1>Computer</h1>
+          <h1 id="computerPoints">0</h1>
+          <h1 id="playerPoints">0</h1>
+          <h1>Player</h1>
+        </div>
+      </div>
+
+      <div class="computer-badge-container" id="computer--badge">
+        <h1 style="text-align: center">Computer</h1>
+        <div class="computer-badge" id="computer-badge-id">
+          <h2 id="currentComputerPlay">✌</h2>
+        </div>
+      </div>
+
+      <div class="results-display">
+        <p class="results-text" id="results">currently draw</p>
+      </div>
+
+      <h2 style="text-align: center">Player</h2>
+      <div class="player-choice" id="currentPlayer">✌</div>
+      <div class="player-badge" id="player--badge">
+        <div class="player-styles">
+          <button class="button-styles" id="rock">✊</button>
+          <p>Rock</p>
+        </div>
+        <div class="player-styles">
+          <button class="button-styles" id="paper">✋</button>
+          <p>Paper</p>
+        </div>
+        <div class="player-styles">
+          <button class="button-styles" id="scissors">✌</button>
+          <p>Scissors</p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
